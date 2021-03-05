@@ -21,4 +21,17 @@ public class Iteration {
         this.activities.add(activity);
     }
 
+    public int countOpenActivities() {
+
+        int openActivities = 0;
+        for (int i=0; i < activities.size(); i++) {
+
+            if (activities.get(i).isActive()) {
+
+                openActivities++;
+            }
+        }
+        return openActivities;
+    }
+
 }

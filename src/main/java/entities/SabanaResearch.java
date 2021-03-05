@@ -29,6 +29,9 @@ public class SabanaResearch {
      * @return The new Summary entry.
      */
     public Summary createSummaryEntry() {
+
+
+
         return null;
     }
 }

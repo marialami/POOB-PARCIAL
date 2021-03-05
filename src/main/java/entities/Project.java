@@ -40,6 +40,7 @@ public class Project {
      * @return false if the project has not open activities or the dateEnd is before than the system date.
      */
     public boolean isActive() {
+
         return false;
     }
 
