@@ -1,5 +1,10 @@
 # README
 
+I. MEMORIA
+
+![MMEMORIA1](https://user-images.githubusercontent.com/78276253/110183306-95891c00-7ddc-11eb-84f7-c57ff9c5c294.png)
+![MMEMORIA2](https://user-images.githubusercontent.com/78276253/110183376-ba7d8f00-7ddc-11eb-8b0c-44d89e1d3c05.png)
+
 
 IV. Conceptos
 
