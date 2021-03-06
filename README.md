@@ -12,6 +12,11 @@ II. CÓDIGO
 El código se encuentra en la rama "master" del repositorio.
 
 
+III. DISEÑO
+
+![MSECUENCIA](https://user-images.githubusercontent.com/78276253/110188369-66c57280-7de9-11eb-8680-e167a9bbbbbc.png)
+
+
 IV. Conceptos
 
 1. ¿Qué es encapsulamiento? ¿Qué ventajas ofrece?
