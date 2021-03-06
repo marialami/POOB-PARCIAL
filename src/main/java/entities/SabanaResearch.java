@@ -28,9 +28,24 @@ public class SabanaResearch {
      *
      * @return The new Summary entry.
      */
+
+    private int ap = 0;
+
+    public SabanaResearch(int ap) {
+        this.ap = ap;
+    }
+
     public Summary createSummaryEntry() {
 
+        LocalDate date;
 
+        for (int i = 0; i < groups.size(); i++) {
+
+            if (groups.get(i).countActiveProjects() != 0) {
+
+                ap = ap + groups.get(i).countActiveProjects();
+            }
+        }
 
         return null;
     }
