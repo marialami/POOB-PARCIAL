@@ -41,6 +41,27 @@ public class Project {
      */
     public boolean isActive() {
 
+        int openActivitiesInIterations = 0;
+        boolean dateEndIsAfter = false;
+
+        for (int i = 0; i < iterations.size(); i++) {
+
+            if (iterations.get(i).countOpenActivities() != 0) {
+
+                openActivitiesInIterations++;
+            }
+        }
+
+        if (dateEnd.isAfter(LocalDate.now())) {
+
+            dateEndIsAfter = true;
+        }
+
+        if (openActivitiesInIterations != 0 || dateEndIsAfter) {
+
+            return true;
+        }
+
         return false;
     }
 
